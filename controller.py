@@ -7,9 +7,11 @@ def phone_book_line():
     surname = ui.surname()
     phone = ui.phone()
     comment = ui.comment()
-    result = write_phone.write_line(name, surname, phone, comment)
-    read_book.read_csv_line(result)
+    write_phone.write_line(name, surname, phone, comment)
     
+def pri():
+    read_book.read_csv()
+
 
 def phone_book_column():
     name = ui.name()
@@ -17,5 +19,7 @@ def phone_book_column():
     phone = ui.phone()
     comment = ui.comment()
     write_phone.write_column(name, surname, phone, comment)
-    read_book.read_csv_column()
+
+def pri2():
+    read_book.read_csv_colunm()
     
