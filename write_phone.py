@@ -14,6 +14,6 @@ def write_column(name, surname, phone, comment):
     global data
     file2 = data
     with open(file2, 'a') as f:
-        f.write(f'{name};\n{surname};\n{phone};\n{comment}\n;')
+        f.write(f'{name};\n{surname};\n{phone};\n{comment};\n')
         f.write('')
     return file2

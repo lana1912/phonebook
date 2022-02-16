@@ -1,3 +1,4 @@
+import read_book
 
 def name():
     return input('Введите имя: ')
@@ -20,9 +21,6 @@ def comment():
     return input('Введите комментарий: ')
 
 
-def format():
-    return input('Выберите формат записи 1 - строку, 2 - в столбик: ')
 
 
-def conclusion():
-      return input('Выберите формат вывода 1 - в строку, 2 - в столбик: ')
+
