@@ -20,6 +20,6 @@ def phone_book_column():
     comment = ui.comment()
     write_phone.write_column(name, surname, phone, comment)
 
-def pri2():
+def prit():
     read_book.read_csv_colunm()
     

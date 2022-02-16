@@ -8,6 +8,6 @@ if select == '1':
 
 if select == '2': 
     controller.phone_book_column()
-    controller.pri2()
+    controller.prit()
 
 

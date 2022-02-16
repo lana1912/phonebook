@@ -9,11 +9,13 @@ def read_csv():
         #rd.readlines()
         for i in rd:
             console_line(i.split(';'))
+            break
 
 def read_csv_colunm():
     with open(data, 'r') as rd:
         #rd.readlines()
         for i in rd:
             console_colunm(i.split(';'))
+            break
 
            

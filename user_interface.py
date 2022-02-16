@@ -7,13 +7,7 @@ def surname():
 
 
 def phone():
-    while True:
-        try:
-            int(input('Введите номер телефона: '))
-            break
-        except ValueError:
-            print("Вы ввели не телефон. Попробуйте снова: ")
-
+    return input('Введите номер телефона: ')
 
 def comment():
     return input('Введите комментарий: ')
